@@ -7,7 +7,7 @@ void main()
 float n, maior, menor;
 n = 1;
 maior= -1;
-menor = 11;
+menor = n+ 1;
 while (n >= 0) {
 
 printf("Digite n :");
