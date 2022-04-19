@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+#include <math.h>
+void main()
+{
+float n, maior, menor;
+n = 1;
+maior= -1;
+menor = 11;
+while (n >= 0) {
+
+printf("Digite n :");
+scanf("%f", &n);
+    if( maior < n){
+        maior = n;
+    }
+     if( menor > n && n >= 0){
+        menor = n;
+    }
+
+}
+    printf(" a menor nota é %f e a menor é %f", menor, maior);
+
+}
